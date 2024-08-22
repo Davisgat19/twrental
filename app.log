@@ -1,0 +1,72 @@
+2024-08-22T17:24:07.587+02:00  INFO 22924 --- [main] c.e.twrental2.Twrental2Application       : Starting Twrental2Application using Java 17.0.12 with PID 22924 (C:\Users\CSCD1\IdeaProjects\twrental2\target\classes started by CSCD1 in C:\Users\CSCD1\IdeaProjects\twrental2)
+2024-08-22T17:24:07.590+02:00  INFO 22924 --- [main] c.e.twrental2.Twrental2Application       : No active profile set, falling back to 1 default profile: "default"
+2024-08-22T17:24:07.939+02:00  INFO 22924 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-22T17:24:07.989+02:00  INFO 22924 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 3 JPA repository interfaces.
+2024-08-22T17:24:08.228+02:00  INFO 22924 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-22T17:24:08.379+02:00  INFO 22924 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:twrental user=SA
+2024-08-22T17:24:08.380+02:00  INFO 22924 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-22T17:24:08.414+02:00  INFO 22924 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-22T17:24:08.464+02:00  INFO 22924 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-22T17:24:08.492+02:00  INFO 22924 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-22T17:24:08.728+02:00  INFO 22924 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-22T17:24:08.763+02:00  WARN 22924 --- [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-22T17:24:09.368+02:00  INFO 22924 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-22T17:24:09.406+02:00  INFO 22924 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-22T17:24:09.663+02:00  INFO 22924 --- [main] c.e.twrental2.Twrental2Application       : Started Twrental2Application in 2.397 seconds (process running for 2.862)
+2024-08-22T17:24:09.757+02:00  INFO 22924 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-22T17:24:09.761+02:00  INFO 22924 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-22T17:24:09.763+02:00  INFO 22924 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-22T17:24:51.835+02:00  INFO 5416 --- [main] c.e.twrental2.Twrental2Application       : Starting Twrental2Application using Java 17.0.12 with PID 5416 (C:\Users\CSCD1\IdeaProjects\twrental2\target\classes started by CSCD1 in C:\Users\CSCD1\IdeaProjects\twrental2)
+2024-08-22T17:24:51.836+02:00  INFO 5416 --- [main] c.e.twrental2.Twrental2Application       : No active profile set, falling back to 1 default profile: "default"
+2024-08-22T17:24:52.118+02:00  INFO 5416 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-22T17:24:52.156+02:00  INFO 5416 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 3 JPA repository interfaces.
+2024-08-22T17:24:52.371+02:00  INFO 5416 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-22T17:24:52.493+02:00  INFO 5416 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:twrental user=SA
+2024-08-22T17:24:52.495+02:00  INFO 5416 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-22T17:24:52.521+02:00  INFO 5416 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-22T17:24:52.557+02:00  INFO 5416 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-22T17:24:52.581+02:00  INFO 5416 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-22T17:24:52.778+02:00  INFO 5416 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-22T17:24:52.808+02:00  WARN 5416 --- [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-22T17:24:53.364+02:00  INFO 5416 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-22T17:24:53.403+02:00  INFO 5416 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-22T17:24:53.642+02:00  INFO 5416 --- [main] c.e.twrental2.Twrental2Application       : Started Twrental2Application in 2.078 seconds (process running for 2.422)
+2024-08-22T17:24:53.727+02:00  INFO 5416 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-22T17:24:53.730+02:00  INFO 5416 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-22T17:24:53.732+02:00  INFO 5416 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-22T17:28:49.983+02:00  INFO 24608 --- [main] c.e.twrental2.Twrental2Application       : Starting Twrental2Application using Java 17.0.12 with PID 24608 (C:\Users\CSCD1\IdeaProjects\twrental2\target\classes started by CSCD1 in C:\Users\CSCD1\IdeaProjects\twrental2)
+2024-08-22T17:28:49.985+02:00  INFO 24608 --- [main] c.e.twrental2.Twrental2Application       : No active profile set, falling back to 1 default profile: "default"
+2024-08-22T17:28:50.267+02:00  INFO 24608 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-22T17:28:50.304+02:00  INFO 24608 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 3 JPA repository interfaces.
+2024-08-22T17:28:50.506+02:00  INFO 24608 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-22T17:28:50.628+02:00  INFO 24608 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:twrental user=SA
+2024-08-22T17:28:50.630+02:00  INFO 24608 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-22T17:28:50.654+02:00  INFO 24608 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-22T17:28:50.687+02:00  INFO 24608 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-22T17:28:50.708+02:00  INFO 24608 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-22T17:28:50.901+02:00  INFO 24608 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-22T17:28:50.934+02:00  WARN 24608 --- [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-22T17:28:51.505+02:00  INFO 24608 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-22T17:28:51.540+02:00  INFO 24608 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-22T17:28:51.774+02:00  INFO 24608 --- [main] c.e.twrental2.Twrental2Application       : Started Twrental2Application in 2.062 seconds (process running for 2.401)
+2024-08-22T17:28:51.854+02:00  INFO 24608 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-22T17:28:51.858+02:00  INFO 24608 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-22T17:28:51.860+02:00  INFO 24608 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-22T17:30:23.397+02:00  INFO 7496 --- [main] c.example.twrental2.TwrentalApplication  : Starting TwrentalApplication using Java 17.0.12 with PID 7496 (C:\Users\CSCD1\IdeaProjects\twrental2\target\classes started by CSCD1 in C:\Users\CSCD1\IdeaProjects\twrental2)
+2024-08-22T17:30:23.399+02:00  INFO 7496 --- [main] c.example.twrental2.TwrentalApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-08-22T17:30:23.701+02:00  INFO 7496 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-22T17:30:23.737+02:00  INFO 7496 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 3 JPA repository interfaces.
+2024-08-22T17:30:23.945+02:00  INFO 7496 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-22T17:30:24.068+02:00  INFO 7496 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:twrental user=SA
+2024-08-22T17:30:24.070+02:00  INFO 7496 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-22T17:30:24.095+02:00  INFO 7496 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-22T17:30:24.128+02:00  INFO 7496 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-22T17:30:24.151+02:00  INFO 7496 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-22T17:30:24.344+02:00  INFO 7496 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-22T17:30:24.373+02:00  WARN 7496 --- [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-22T17:30:24.925+02:00  INFO 7496 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-22T17:30:24.961+02:00  INFO 7496 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-22T17:30:25.194+02:00  INFO 7496 --- [main] c.example.twrental2.TwrentalApplication  : Started TwrentalApplication in 2.075 seconds (process running for 2.416)
+2024-08-22T17:33:27.232+02:00  INFO 7496 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-22T17:33:27.241+02:00  INFO 7496 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-22T17:33:27.244+02:00  INFO 7496 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
